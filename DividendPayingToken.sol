@@ -21,7 +21,7 @@ contract DividendPayingToken is ERC20, Ownable, DividendPayingTokenInterface, Di
   using SafeMathUint for uint256;
   using SafeMathInt for int256;
 
-  address public immutable BUSD = address(0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82); //BUSD
+  address public immutable BUSD = address(0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56); //BUSD
 
 
   // With `magnitude`, we can properly distribute dividends even if the amount of received ether is small.

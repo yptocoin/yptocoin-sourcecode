@@ -27,7 +27,7 @@ contract yptc is ERC20, Ownable {
     address public immutable BUSD = address(0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56); //BUSD
 
     uint256 public maxTxAmount = 1000000000000000 * (10**18);
-    uint256 public swapTokensAtAmount = 5000000000000 * (10**18);
+    uint256 public swapTokensAtAmount = 1000000000000 * (10**18);
     uint256 private buyBackUpperLimit = 1 * 10**17; // equal to 0.1 bnb
     uint256 private _buyBackDivisor = 20;
 
